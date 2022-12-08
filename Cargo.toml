@@ -1,0 +1,10 @@
+[package]
+name = "enum_dispatch_iter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+enum_dispatch_iter_macro = { version = "0.1.0", path = "derive_macro" }
+
+[dev-dependencies]
+enum_dispatch = "0.3.8"
